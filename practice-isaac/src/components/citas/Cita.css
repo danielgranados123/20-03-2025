@@ -1,0 +1,21 @@
+.titulo{
+    font-size: large;
+    background-color: #ffd00046;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.texto{
+    font-size: medium;
+    font-weight: 500;
+}
+
+.autor{
+    font-size: medium;
+    font-style: italic;
+}
+
+.card-body,
+.card{
+    padding-bottom: 0px
+}
