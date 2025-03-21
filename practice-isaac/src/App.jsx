@@ -80,10 +80,14 @@ function App() {
       <br /><br />
       <Popover2
       a={'a'}
+      b={'b'}
+      c={'c'}
       />
       <br /><br />
       <Popover3
-      texto={'Prueba 3'}
+      a={'Daniel'}
+      b={'Isaac'}
+      c={'Wilfredo'}
       />
     </>
   )
