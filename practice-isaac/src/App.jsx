@@ -11,6 +11,11 @@ import Boton3 from './components/boton3/Boton3'
 import Popover1 from './components/popover1/Popover1'
 import Popover2 from './components/popover2/Popover2'
 import Popover3 from './components/popover3/Popover3'
+import Alerta1 from './components/alerta1/Alerta1'
+import Alerta2 from './components/alerta2/Alerta2'
+import Alerta3 from './components/alerta3/Alerta3'
+import Titulo from './components/titulo/Titulo'
+import Perfil from './components/perfil/Perfil'
 
 function App() {
 
@@ -88,6 +93,28 @@ function App() {
       a={'Daniel'}
       b={'Isaac'}
       c={'Wilfredo'}
+      />
+      <br /><br /><br />
+      <Alerta1
+      texto={'Ten cuidado, esta es una alerta de peligro'}
+      />
+      <br />
+      <br />
+      <Alerta2
+      texto={'Esta es una alerta normal :)'}
+      />
+      <br /><br />
+      <Alerta3
+      texto={'Esta es una alerta de advertencia'}
+      />
+      <br /><br /><br />
+      <Titulo
+        titulo={'Este sería el título'}
+        etiqueta={'Nuevo'}
+      />
+      <br /><br /><br />
+      <Perfil
+        nombre={'Daniel Granados'}
       />
     </>
   )

@@ -1,0 +1,10 @@
+.boton3{
+    background-color: rgb(92, 18, 0);
+    border-color: rgb(92, 18, 0);
+    width: 220px;
+}
+
+.boton3:hover{
+    background-color: rgb(143, 29, 0);
+    border-color: rgb(92, 18, 0);
+}
