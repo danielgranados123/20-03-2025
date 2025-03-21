@@ -16,6 +16,9 @@ import Alerta2 from './components/alerta2/Alerta2'
 import Alerta3 from './components/alerta3/Alerta3'
 import Titulo from './components/titulo/Titulo'
 import Perfil from './components/perfil/Perfil'
+import Spinner from './components/spinner/Spinner'
+import Toast from './components/toast/Toast'
+import Dropdown from './components/dropdown/Dropdown'
 
 function App() {
 
@@ -115,6 +118,21 @@ function App() {
       <br /><br /><br />
       <Perfil
         nombre={'Daniel Granados'}
+      />
+      <br /><br /><br />
+      <Spinner/>
+      <br /><br /><br />
+      <Toast
+      titulo={'Mi titulo'}
+      texto={'Mi texto'}
+      hora={'11 minutos'}
+      />
+      <br /><br /><br />
+      <Dropdown
+      titulo={'Escoge una opción'}
+      primero={'Opción 1'}
+      segundo={'Opción 2'}
+      tercero={'Opción 3'}
       />
     </>
   )
